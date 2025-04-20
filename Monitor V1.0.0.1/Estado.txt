@@ -1,0 +1,5 @@
+Operativo
+- EMA: Funcional
+- MACD: Funcional
+- Stoch RSI: Funcional
+- Volumen Dominante: Funcional
