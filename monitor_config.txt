@@ -1,2 +1,2 @@
 whatsapp_alerts = false
-sound_alerts = true
+sound_alerts = false
