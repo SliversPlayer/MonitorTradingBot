@@ -1,3 +1,0 @@
-entry_price=
-take_profit=0.6380
-stop_loss=0.6215
