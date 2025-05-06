@@ -36,5 +36,31 @@ MonitorTradingBot/
 - ta (Technical Analysis library)
 - requests
 
+📈 Lógica de Señales
+El bot evalúa una lista de condiciones como:
 
+Precio sobre EMA9 y EMA20
 
+MACD > Señal
+
+RSI creciente debajo de 60
+
+%K del Stoch RSI cruza 20 al alza
+
+Volumen de compra dominante creciente
+
+Estado de mercado favorable (bullish o transición)
+
+Las señales pueden ser:
+
+✅ Señal COMPLETA: se cumplen casi todas las condiciones
+
+⚠️ Señal PARCIAL: se cumplen al menos 3 condiciones relevantes
+
+❕ Sin señal suficiente: no se cumplen las condiciones mínimas
+
+🛡️ Seguridad
+⚠️ No compartas callmebot_credentials.txt en entornos públicos. Este archivo contiene tu número y API key de CallMeBot.
+
+🤖 Créditos
+Desarrollado por SliversPlayer. Proyecto educativo y experimental de monitoreo algorítmico para traders independientes.
